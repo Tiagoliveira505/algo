@@ -1,0 +1,280 @@
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* Estilo do corpo */
+
+body 
+    {   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+    }
+
+    /* Estilo do cabeçalho */
+
+header 
+
+    {
+    background-color:white;
+    font-family:Algerian;
+    color: rgb(132, 194, 235);
+    padding: 30px;
+    text-align:left;
+    }
+
+    /* Inicio */
+
+nav 
+    {
+    background-color:#34495e;
+    text-align: center;
+    }
+
+nav li
+    {
+    display: inline-block;
+    }
+
+nav li a 
+    {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    }
+
+nav li a:hover 
+    {
+    background-color: #2c3e50;
+    }
+
+.dropdown-inicio 
+    {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    display: none;
+    }
+
+.dropdown-inicio a
+    {
+    display: block;
+    color: rgb(7, 7, 7);
+    }
+.dropdown:hover .dropdown-inicio 
+    {
+    display: block;
+    }
+
+    /* Destino */
+
+nav 
+    {
+    background-color:#34495e;
+    text-align: center;
+    }
+
+nav li
+    {
+    display: inline-block;
+    }
+
+nav li a 
+    {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    }
+
+nav li a:hover 
+    {
+    background-color: #2c3e50;
+    }
+
+.dropdown-Destinos 
+    {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    display: none;
+    }
+
+.dropdown-Destinos a
+    {
+    display: block;
+    color: rgb(7, 7, 7);
+    }
+.dropdown:hover .dropdown-Destinos 
+    {
+    display: block;
+    }
+
+    /* Guia de viagem */
+
+nav 
+    {
+    background-color:#34495e;
+    text-align: center;
+    }
+
+nav li
+    {
+    display: inline-block;
+    }
+
+nav li a 
+    {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    }
+
+nav li a:hover 
+    {
+    background-color: #2c3e50;
+    }
+
+.dropdown-Guia_de_viagem  
+    {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    display: none;
+    }
+
+.dropdown-Guia_de_viagem a
+    {
+    display: block;
+    color: rgb(7, 7, 7);
+    }
+.dropdown:hover .dropdown-Guia_de_viagem
+    {
+    display: block;
+    }
+
+    /* Pacotes */
+
+    nav 
+    {
+    background-color:#34495e;
+    text-align: center;
+    }
+
+nav li
+    {
+    display: inline-block;
+    }
+
+nav li a 
+    {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    }
+
+nav li a:hover 
+    {
+    background-color: #2c3e50;
+    }
+
+.dropdown-Pacotes   
+    {
+    position: absolute;
+    border: 5px solid #2c3e50;
+    display: none;
+    }
+
+.dropdown-Pacotes a
+    {
+    display: block;
+    color: rgb(7, 7, 7);
+    }
+.dropdown:hover .dropdown-Pacotes
+    {
+    display: block;
+    }
+
+    /* Contatos */
+
+    nav 
+    {
+    background-color:#34495e;
+    text-align: center;
+    }
+
+nav li
+    {
+    display: inline-block;
+    }
+
+nav li a 
+    {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px;
+    }
+
+nav li a:hover 
+    {
+    background-color: #2c3e50;
+    }
+
+.dropdown-Contato  
+    {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    display: none;
+    }
+
+.dropdown-Contato a
+    {
+    display: block;
+    color: rgb(40, 224, 15);
+    }
+.dropdown:hover .dropdown-Contato
+    {
+    display: block;
+    }
+
+    .banner {
+        background-image: url(https://cms-artifacts.artlist.io/content/motion-array/463685/Coconut_In_Straw_Hat_And_Sunglasses_On_high_resolution_preview_463685.jpg?Expires=2036703925980&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=1-nSCvBWcNWPLty6ZZPCUU0hbevSuE-kv5Bhlpvy76VcVW~1ENj~Xl5b-6DT1jv5YgJ72HQvGABCqfywTkDwbJF5Tin1xkc6JdL8npyqAaLwsQkaejaQSZEHGRHe1l3xga41VVBd6LeMA7UjoZerzwUW90QGgw4txjaDoTVh7Ez299PpDUQJ0CEh-8tloQsi~S-7ulAb4jjkuzguKva5tH6UwnGlbYUrAi1MoimksEkwspBgrkJIhwJIuuH41HrpADSBdSLnibdjNMYJInSjmdoeQnUwESp6wGFwyymv0~YfiLLlwjjButMuWWoCKW7-ELCmYjGh5yynnY9KKf4qBg__); /* Substituir pela imagem desejada */
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        font-weight: 'Aptos Black', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+        display: block;
+      }
+
+      /* Servicos */
+
+      .services {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #ecf0f1;
+      }
+      .service {
+        text-align: center;
+        max-width: 300px;
+      }
+      footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+
+
+
+    
+
